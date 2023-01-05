@@ -1,0 +1,64 @@
+{
+  "name" : "LTV_Regression",
+  "id" : "16",
+  "version" : "v1",
+  "modifiedAt" : "2023-01-05T10:03:37.695266Z",
+  "trainedAt" : "2023-01-05T10:03:37.598330Z",
+  "description" : "",
+  "inputSchema" : {
+    "id" : "input_id",
+    "name" : "input for LTV_Regression",
+    "type" : "struct",
+    "fields" : [ {
+      "name" : "Gender",
+      "type" : "string",
+      "nullable" : false
+    }, {
+      "name" : "Status",
+      "type" : "string",
+      "nullable" : false
+    }, {
+      "name" : "Car Owner",
+      "type" : "string",
+      "nullable" : false
+    }, {
+      "name" : "Paymethod",
+      "type" : "string",
+      "nullable" : false
+    }, {
+      "name" : "Children",
+      "type" : "double",
+      "nullable" : false
+    }, {
+      "name" : "Est Income",
+      "type" : "double",
+      "nullable" : false
+    }, {
+      "name" : "Age",
+      "type" : "double",
+      "nullable" : false
+    }, {
+      "name" : "Usage",
+      "type" : "double",
+      "nullable" : false
+    }, {
+      "name" : "RatePlan",
+      "type" : "double",
+      "nullable" : false
+    } ]
+  },
+  "outputSchema" : {
+    "id" : "output_id",
+    "name" : "output for LTV_Regression",
+    "type" : "struct",
+    "fields" : [ {
+      "name" : "predicted_LTV",
+      "type" : "double",
+      "nullable" : false
+    } ]
+  },
+  "metadata" : {
+    "description" : null,
+    "tags" : [ "ADS_TAG/gmmoli774/Blah" ]
+  }
+}

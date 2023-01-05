@@ -1,0 +1,53 @@
+
+# _082392706.telecom.retention_with_ml.customerlifetimevalue.Error
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Error#concept.label = 出力エラー
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Error.Error(java.lang.String,java.lang.String)#phrase.navigation = 新規の {出力エラー}ここで{0, コード} {1, メッセージ} 
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Error.code#phrase.action = {this}のコードを{コード}とする
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Error.code#phrase.navigation = {this}の{コード}
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Error.message#phrase.action = {this}のメッセージを{メッセージ}とする
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Error.message#phrase.navigation = {this}の{メッセージ}
+
+# _082392706.telecom.retention_with_ml.customerlifetimevalue.Input
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Input#concept.label = ML モデル入力
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Input.Input(double,java.lang.String,double,double,java.lang.String,java.lang.String,double,java.lang.String,double)#phrase.navigation = 新規の {ML モデル入力}ここで{0, age} {1, car owner} {2, children} {3, est income} {4, gender} {5, paymethod} {6, rateplan} {7, status} {8, usage} 
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Input.age#phrase.action = {this}のageを{age}とする
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Input.age#phrase.addition_setter = {this}のageに{age}を追加する
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Input.age#phrase.navigation = {this}の{age}
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Input.age#phrase.subtraction_setter = {this}のageから{age}を引く
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Input.carOwner#phrase.action = {this}のcar ownerを{car owner}とする
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Input.carOwner#phrase.navigation = {this}の{car owner}
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Input.children#phrase.action = {this}のchildrenを{children}とする
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Input.children#phrase.addition_setter = {this}のchildrenに{children}を追加する
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Input.children#phrase.navigation = {this}の{children}
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Input.children#phrase.subtraction_setter = {this}のchildrenから{children}を引く
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Input.estIncome#phrase.action = {this}のest incomeを{est income}とする
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Input.estIncome#phrase.addition_setter = {this}のest incomeに{est income}を追加する
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Input.estIncome#phrase.navigation = {this}の{est income}
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Input.estIncome#phrase.subtraction_setter = {this}のest incomeから{est income}を引く
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Input.gender#phrase.action = {this}のgenderを{gender}とする
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Input.gender#phrase.navigation = {this}の{gender}
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Input.paymethod#phrase.action = {this}のpaymethodを{paymethod}とする
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Input.paymethod#phrase.navigation = {this}の{paymethod}
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Input.rateplan#phrase.action = {this}のrateplanを{rateplan}とする
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Input.rateplan#phrase.addition_setter = {this}のrateplanに{rateplan}を追加する
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Input.rateplan#phrase.navigation = {this}の{rateplan}
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Input.rateplan#phrase.subtraction_setter = {this}のrateplanから{rateplan}を引く
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Input.status#phrase.action = {this}のstatusを{status}とする
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Input.status#phrase.navigation = {this}の{status}
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Input.usage#phrase.action = {this}のusageを{usage}とする
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Input.usage#phrase.addition_setter = {this}のusageに{usage}を追加する
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Input.usage#phrase.navigation = {this}の{usage}
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Input.usage#phrase.subtraction_setter = {this}のusageから{usage}を引く
+
+# _082392706.telecom.retention_with_ml.customerlifetimevalue.Output
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Output#concept.label = ML モデル出力
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Output.Output(double)#phrase.navigation = 新規の {ML モデル出力}ここで{0, predicted ltv} 
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Output.error#phrase.action = {this}のエラーを{エラー}とする
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Output.error#phrase.clearer = エラー{this}をクリアする
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Output.error#phrase.navigation = {this}の{エラー}
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Output.inError()#phrase.navigation = {this}はエラーの
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Output.predictedLtv#phrase.action = {this}のpredicted ltvを{predicted ltv}とする
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Output.predictedLtv#phrase.addition_setter = {this}のpredicted ltvに{predicted ltv}を追加する
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Output.predictedLtv#phrase.navigation = {this}の{predicted ltv}
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Output.predictedLtv#phrase.subtraction_setter = {this}のpredicted ltvから{predicted ltv}を引く
+_082392706.telecom.retention_with_ml.customerlifetimevalue.Output.run(_082392706.telecom.retention_with_ml.customerlifetimevalue.Input)#phrase.navigation = predict({0})

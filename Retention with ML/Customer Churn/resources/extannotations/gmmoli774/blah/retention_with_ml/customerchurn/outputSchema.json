@@ -1,0 +1,14 @@
+{
+  "id" : "output_id",
+  "name" : "output for Churn_RandomForestClassifier",
+  "type" : "struct",
+  "fields" : [ {
+    "name" : "probability(T)",
+    "type" : "double",
+    "nullable" : false
+  }, {
+    "name" : "probability(F)",
+    "type" : "double",
+    "nullable" : false
+  } ]
+}

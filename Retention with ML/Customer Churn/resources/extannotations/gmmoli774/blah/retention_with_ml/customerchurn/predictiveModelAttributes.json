@@ -1,0 +1,6 @@
+{
+  "type" : "CONNECTED_TO_REMOTE_PROVIDER",
+  "generatedByVersion" : "29.2.11",
+  "generationTime" : 1672912998458,
+  "modelName" : "Churn_RandomForestClassifier"
+}
